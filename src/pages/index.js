@@ -17,19 +17,24 @@ const paragraphStyles = {
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Witch in the Woods</title>
-      <h1 style={headingAccentStyles}>
-        Witch in the Woods&nbsp;
-        <span role="img" aria-label="witch emoji">
-          🧙
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        A text adventure generated with the Adventuron engine.
-      </p>
-      <p style={paragraphStyles}>Coming soonish...</p>
-    </main>
+    <>
+      <main style={pageStyles}>
+        <title>Witch in the Woods</title>
+        <h1 style={headingAccentStyles}>
+          Witch in the Woods&nbsp;
+          <span role="img" aria-label="witch emoji">
+            🧙
+          </span>
+        </h1>
+        <p style={paragraphStyles}>
+          A text adventure generated with the Adventuron engine.
+        </p>
+        <p style={paragraphStyles}>Coming soonish...</p>
+      </main>
+      <noscript>
+        This application requires JavaScript to be enabled !!!
+      </noscript>
+    </>
   );
 };
 
